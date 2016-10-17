@@ -13,7 +13,7 @@ var Rep = person.representation
 
 function drawPerson(person) {
  nomen.html(person.name)
- image.html("<img src=Rep height='200'>")
+ image.html("<img id="" src=Rep height='200'>")
  phrase.html(person.catchphrase)
  
 }
