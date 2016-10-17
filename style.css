@@ -1,10 +1,11 @@
 .person-container {
   text-align: center;
-  color: blue;
+  color: black;
+  font-size 36px;
+  font-style: bold;
 }
 
-#image {
+#representation {
   border-style: solid;
-  border-color: person.favoriteColor;
+  border-color: person.favoritecolor;
 } 
-}
