@@ -8,11 +8,11 @@ var person = {
   favoriteColor: "blue",
   catchphrase: "Get pumped!"
 }
-var i
+var Rep = person.representation
 
 function drawPerson(person) {
  nomen.html(person.name)
- image.html('<img src=person.representation>')
+ image.html(Rep)
  
 }
 
