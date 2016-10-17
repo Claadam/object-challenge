@@ -11,7 +11,8 @@ var person = {
 
 function drawPerson(person) {
  nomen.html(person.name)
- image.html(person.representation)
+ image.html('<img src=person.representation>')
+ 
 }
 
 drawPerson(person)
