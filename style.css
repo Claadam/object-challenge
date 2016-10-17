@@ -1,6 +1,10 @@
 .person-container {
   text-align: center;
   color: blue;
-  border
+}
+
+#image {
+  border-style: solid;
   border-color: person.favoriteColor;
+} 
 }
