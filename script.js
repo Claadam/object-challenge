@@ -1,4 +1,5 @@
 var nomen = $("#name")
+var image = $("#representation")
 
 var person = {
   name: "David",
@@ -10,6 +11,7 @@ var person = {
 
 function drawPerson(person) {
  nomen.html(person.name)
+ image.html(<img src=person.representation>)
 }
 
 drawPerson(person)
