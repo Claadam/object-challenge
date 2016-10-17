@@ -10,11 +10,13 @@ var person = {
   catchphrase: "Get pumped!"
 }
 var Rep = person.representation
+var height_ = person.height
 
 function drawPerson(person) {
  nomen.html(person.name)
  image.html("<img id='firstimage' src=Rep height='200'>")
  $("#firstimage").attr("src", Rep)
+ $("#firstimage").attr("height", height_)
  phrase.html(person.catchphrase)
 }
 
