@@ -12,7 +12,7 @@ var Rep = person.representation
 
 function drawPerson(person) {
  nomen.html(person.name)
- image.html(Rep)
+ image.html("<img src=https:i.//ytimg.com>")
  
 }
 
