@@ -5,7 +5,7 @@ var phrase = $("#phrase")
 var person = {
   name: "Clay",
   representation: "https://i.ytimg.com/vi/Ovn3ehANSvA/maxresdefault.jpg",
-  height: "500px",	
+  height: "200px",	
   favoriteColor: "blue",
   catchphrase: "Get pumped!"
 }
