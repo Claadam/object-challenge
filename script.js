@@ -14,7 +14,7 @@ var Rep = person.representation
 function drawPerson(person) {
  nomen.html(person.name)
  image.html("<img id='firstimage' src=Rep height='200'>")
- $("#f").attr("src","second.jpg")
+ $("#firstimage").attr("src", Rep)
  phrase.html(person.catchphrase)
 }
 
