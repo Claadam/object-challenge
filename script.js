@@ -18,7 +18,7 @@ function drawPerson(person) {
  $("#firstimage").attr("src", Rep)
  $("#firstimage").attr("height", height_)
  phrase.html(person.catchphrase)
- $(representation).css(border-color,person)
+ $("#representation").css("border-color",person.favoriteColor)
 
 }
 
